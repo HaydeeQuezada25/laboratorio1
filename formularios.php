@@ -8,7 +8,7 @@
     <title>Promedio de las notas</title>
 </head>
 <body>
-    <form name="formulario" method="post" action="sumatoria.php">
+    <form name="formularios" method="post" action="sumatoria.php">
     <div class="mb-3">
             <label for="nombre" class="form-label">CALCULO DE NOTAS</label>
         </div>

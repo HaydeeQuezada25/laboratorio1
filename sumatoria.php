@@ -25,6 +25,6 @@ $id = $row['maxid'];
 $query = "INSERT INTO alumno_haydee VALUES ($id,'$nombre', $nota1, $nota2,$parcial)";
 mysqli_query($conect, $query);
 
-printf ("Nuevo registro con el id %d.\n", $conect->insert_id);
+printf ("codigo del alumno id %d.\n", $conect->insert_id);
 mysqli_close($conect);
 ?>
